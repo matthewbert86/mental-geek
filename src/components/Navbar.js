@@ -10,7 +10,8 @@ const Navbar = ({ toggle }) => {
     <div className="nav-center">
       <div className="nav-header">
         <Link to="/" className="nav-logo">
-          <img src={logo} alt="mdx-logo" />
+          {/*<img src={logo} alt="mdx-logo" />*/}
+          <h3>Mental Geek</h3>
         </Link>
         <button className="toggle-btn" onClick={toggle}>
           <FaBars />
