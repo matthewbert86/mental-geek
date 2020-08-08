@@ -7,7 +7,7 @@ import SEO from '../components/SEO'
 // ...GatsbyImageSharpFluid
 const IndexPage = () => {
   return <Layout>
-  <Hero />
+  <Hero showPerson />
   </Layout>
 }
 

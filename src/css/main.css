@@ -188,7 +188,7 @@ Navbar
   height: 5rem;
   display: flex;
   align-items: center;
-  background: transparent;
+  background:white;
 }
 .nav-center {
   width: 90vw;
@@ -207,6 +207,11 @@ Navbar
 .nav-logo img {
   height: 100%;
 }
+
+.navName {
+  color: black;
+}
+
 .toggle-btn {
   font-size: 2rem;
   background: transparent;
@@ -347,7 +352,7 @@ Hero
 ===============
 */
 .hero {
-  background: #eedd18;
+  /*background: #eedd18;*/
   height: 12rem;
   position: relative;
   z-index: -1;
