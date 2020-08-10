@@ -18,25 +18,21 @@ const PostTemplate = ({data}) => {
   return (
     <Layout>
       <Hero />
-        <Wrapper>
+      <Wrapper>
         {/* post info */}
-          <article>
-            <Image fluid={image.childImageSharp.fluid} />
-            <div className="post-info">
-              <span>{category}</span>
-              <h2>{title}</h2>
-              <p>{date}</p>
-              <div className="underline"></div>
-            </div>
-            <MDXRenderer>
-              {body}
-            </MDXRenderer>
-          </article>
+        <article>
+          <Image fluid={image.childImageSharp.fluid} />
+          <div className="post-info">
+            <h2>{title}</h2>
+            <p>{date}</p>
+            <span>{category}</span>
+            <div className="underline"></div>
+          </div>
+          <MDXRenderer>{body}</MDXRenderer>
+        </article>
         {/* banner */}
-          <article>
-
-          </article>
-        </Wrapper>
+        <article></article>
+      </Wrapper>
     </Layout>
   )
 }

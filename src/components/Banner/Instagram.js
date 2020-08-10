@@ -36,7 +36,11 @@ const Instagram = () => {
               childImageSharp: { fluid },
             },
           } = item
-          return <Image fluid={fluid} key={index} />
+          return (
+            <a href="https://www.instagram.com/mental_geek">
+              <Image fluid={fluid} key={index} />
+            </a>
+          )
         })}
       </div>
     </Wrapper>
